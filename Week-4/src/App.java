@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Main {
+public class App {
     public static void main(String[] args) {
         ArrayList<Payment> payments = new ArrayList<>();
         Payment p1 = new CreditCardPayment(100.0, "1234-5678-9999", "Putri");
