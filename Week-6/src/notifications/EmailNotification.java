@@ -15,7 +15,7 @@ public class EmailNotification implements Notification {
     }
 
     public String formatMessage(String Message) {
-        return "Email: " + email + "\nMessage: " + Message;
+        return ("\nEmail: " + email + "\nMessage: " + Message);
     }
 
     public boolean isValidReceiver(String Receiver) {

@@ -15,7 +15,7 @@ public class SMSNotification implements Notification {
     }
 
     public String formatMessage(String Message) {
-        return "SMS to: " + phoneNumber + "\nMessage: " + Message;
+        return "\nSMS to: " + phoneNumber + "\nMessage: " + Message;
     }
 
     public boolean isValidReceiver(String Receiver) {

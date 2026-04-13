@@ -15,7 +15,7 @@ public class WhatsAppNotification implements Notification {
     }
 
     public String formatMessage(String Message) {
-        return "WhatsApp: " + phoneNumber + "\nMessage: " + Message;
+        return "\nWhatsApp: " + phoneNumber + "\nMessage: " + Message;
     }
 
     public boolean isValidReceiver(String Receiver) {
