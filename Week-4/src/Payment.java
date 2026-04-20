@@ -13,7 +13,7 @@ public class Payment {
 class CreditCardPayment extends Payment {
     private String cardNumber;
     private String cardHolder;
-
+    // constructor (otomatis dipanggil ketika objek dibuat)
     public CreditCardPayment(double amount, String cardNumber, String cardHolder) {
         super(amount);
         this.cardNumber = cardNumber;

@@ -10,7 +10,7 @@ public class Math {
     }
 
     public double add() {
-        return number1 + number2 + number3;
+        return number1 + number2 + number3;  // return itu keyword getter
     }
 
     public double divide() {
